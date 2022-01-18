@@ -8,11 +8,8 @@
 i: int  | or "i: int 0"
 
 loop: {root} branch
-    == < [i, 10]  | or "i == 10"
+    == < [i, 10]    | or "i == 10"
     end
 
 println >> loop
-    + < [i, 1]    | or "i + 1"
-
-| something is wrong here and in simple_loop.lx
-| how to mutate i while looping?
+    + < [i, 1] > i  | or "i + 1 > i"
