@@ -1,0 +1,19 @@
+| reads 2 integers from stdin
+| and prints their sum to stdout
+| VERSION 1 - explicit declaration of execution order
+
+s1: println
+"Give 2 integers to add:"
+
+x: int > add
+y: int > add
+
+read_int > x
+read_int > y
+
+add: + > outs
+
+s2: println
+outs: "Sum: {}"
+
+[s1, s2] > root
