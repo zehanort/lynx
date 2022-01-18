@@ -16,3 +16,6 @@ end
 println >> loop
 incr: +
 1
+
+| it is wrong!
+| doesn't mutate i while looping!
