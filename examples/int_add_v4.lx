@@ -1,0 +1,13 @@
+| reads 2 integers from stdin
+| and prints their sum to stdout
+| VERSION 4 - even more compact; the whole reactive graph
+|             of the output string is listed beneath it
+
+{root} println
+"Give 2 integers to add:"
+
+{root} println
+"Sum: {}"
++
+read_int
+read_int
