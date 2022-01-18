@@ -1,0 +1,14 @@
+| reads 2 integers from stdin
+| and prints their sum to stdout
+| VERSION 5 - no need to define which nodes are roots
+|             every function node will be executed
+|             in the order they appear in the source file
+
+println
+"Give 2 integers to add:"
+
+println
+"Sum: {}"
++
+read_int
+read_int
