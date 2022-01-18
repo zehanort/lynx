@@ -1,0 +1,4 @@
+| prints "Hello world!" to stdout
+
+{root} println
+"Hello world!"
