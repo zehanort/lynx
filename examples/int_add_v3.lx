@@ -1,0 +1,14 @@
+| reads 2 integers from stdin
+| and prints their sum to stdout
+| VERSION 3 - no inodes for addition operands
+
+{root} println
+"Give 2 integers to add:"
+
+read_int > add
+read_int > add
+
+add: + > outs
+
+{root} println
+outs: "Sum: {}"
