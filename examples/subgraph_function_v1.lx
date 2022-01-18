@@ -1,0 +1,27 @@
+|
+| reads 4 integers from stdin (i.e., 2 points)
+| and prints their distance to stdout
+|
+| (note that every subgraph is a function node by default)
+|
+
+subg [x0, x1, y0, y1] > distance > d {
+    - > sq1
+    y0
+    x0
+    - > sq2
+    y1
+    x1
+    sq1: ^ > add
+    sq2: ^ > add
+    add: + > rt
+    rt: sqrt > d
+}
+
+println
+dist: distance
+
+read_int > dist
+read_int > dist
+read_int > dist
+read_int > dist
